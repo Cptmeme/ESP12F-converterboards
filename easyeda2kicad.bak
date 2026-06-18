@@ -3100,112 +3100,174 @@
 		)
 		(embedded_fonts no)
 	)
-  (symbol "TS-1088-AR02016"
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "SW"
-      (at 0 3.81 0)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "Value"
-      "TS-1088-AR02016"
-      (at 0 -6.35 0)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45"
-      (at 0 -8.89 0)
-      (hide yes)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "Datasheet"
-      "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088-AR02016_C720477.html"
-      (at 0 -11.43 0)
-      (hide yes)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "Manufacturer"
-      "XUNPU(讯普)"
-      (at 0 -13.97 0)
-      (hide yes)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "MPN"
-      "TS-1088-AR02016"
-      (at 0 -16.51 0)
-      (hide yes)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "LCSC Part"
-      "C720477"
-      (at 0 -19.05 0)
-      (hide yes)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "ki_keywords"
-      "Tactile Switches"
-      (at 0 -21.59 0)
-      (hide yes)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (symbol "TS-1088-AR02016_0_1"
-      (circle
-        (center 2.03 -1.27)
-        (radius 0.51)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (circle
-        (center -2.03 -1.27)
-        (radius 0.51)
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -2.29 -0.76) (xy 2.03 0.51)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 5.08 -1.27) (xy 2.54 -1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -5.08 -1.27) (xy -2.54 -1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (pin unspecified line
-        (at 7.62 -1.27 180)
-        (length 2.54)
-        (name "2" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -7.62 -1.27 0)
-        (length 2.54)
-        (name "1" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
+	(symbol "TS-1088-AR02016"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "SW"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TS-1088-AR02016"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_XUNPU-TS-1088-AR02016_C720477.html"
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C720477"
+			(at 0 -12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TS-1088-AR02016_0_1"
+			(polyline
+				(pts
+					(xy -5.08 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.29 0.51) (xy 2.03 1.78)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -2.03 0)
+				(radius 0.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.03 0)
+				(radius 0.51)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "TT0321SB"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5018,7 +5080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:WT0132C6-S5"
+		(property "Footprint" ""
 			(at 0 -25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5676,173 +5738,4 @@
 		)
 		(embedded_fonts no)
 	)
-
-  (symbol "PC817C_C20612594"
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (property
-      "Reference"
-      "U"
-      (at 0 7.62 0)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "Value"
-      "PC817C_C20612594"
-      (at 0 -7.62 0)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "Footprint"
-      "easyeda2kicad:DIP-4_L6.5-W4.6-P2.54-LS7.6-BL"
-      (at 0 -10.16 0)
-      (hide yes)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "Datasheet"
-      "https://www.lcsc.com/datasheet/C20612594.pdf"
-      (at 0 -12.70 0)
-      (hide yes)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "Manufacturer"
-      "AOTE(奥特)"
-      (at 0 -15.24 0)
-      (hide yes)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "MPN"
-      "PC817C"
-      (at 0 -17.78 0)
-      (hide yes)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "LCSC Part"
-      "C20612594"
-      (at 0 -20.32 0)
-      (hide yes)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (property
-      "ki_keywords"
-      "Optocouplers - Phototransistor Output"
-      (at 0 -22.86 0)
-      (hide yes)
-      (effects (font (size 1.27 1.27) ))
-    )
-    (symbol "PC817C_C20612594_0_1"
-      (rectangle
-        (start -6.35 4.32)
-        (end 6.35 -4.32)
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy -4.57 1.27) (xy -3.05 -1.27) (xy -1.27 1.27) (xy -4.57 1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 1.52 -1.02) (xy 1.02 -0.00) (xy 0.51 -0.51) (xy 1.52 -1.02)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy 0.76 -2.03) (xy 0.25 -1.02) (xy -0.25 -1.52) (xy 0.76 -2.03)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (polyline
-        (pts
-          (xy -6.35 2.54) (xy -3.05 2.54) (xy -3.05 -2.54) (xy -6.35 -2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.02 -1.27) (xy -5.08 -1.27)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -0.25 0.76) (xy 1.52 -1.02)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy -1.02 -0.25) (xy 0.76 -2.03)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 2.29) (xy 3.81 -2.29)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 3.81 -0.76) (xy 6.35 -2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.35 2.54) (xy 3.81 0.76)
-        )
-        (stroke (width 0) (type default))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 6.35 -2.54) (xy 5.59 -1.27) (xy 4.83 -2.29) (xy 6.35 -2.54)
-        )
-        (stroke (width 0) (type default))
-        (fill (type background))
-      )
-      (pin unspecified line
-        (at 11.43 2.54 180)
-        (length 5.08)
-        (name "COLLECTOR" (effects (font (size 1.27 1.27))))
-        (number "4" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at 11.43 -2.54 180)
-        (length 5.08)
-        (name "E" (effects (font (size 1.27 1.27))))
-        (number "3" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -11.43 -2.54 0)
-        (length 5.08)
-        (name "C" (effects (font (size 1.27 1.27))))
-        (number "2" (effects (font (size 1.27 1.27))))
-      )
-      (pin unspecified line
-        (at -11.43 2.54 0)
-        (length 5.08)
-        (name "A" (effects (font (size 1.27 1.27))))
-        (number "1" (effects (font (size 1.27 1.27))))
-      )
-    )
-  )
 )
